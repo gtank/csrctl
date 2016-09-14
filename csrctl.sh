@@ -1,6 +1,6 @@
 #!/bin/sh
 
-API="127.0.0.1:8080/apis/certificates/v1alpha1/certificatesigningrequests"
+API="127.0.0.1:8080/apis/certificates.k8s.io/v1alpha1/certificatesigningrequests"
 CSR_ARG="$2"
 
 # Set the status of a CSR to 'approved'
